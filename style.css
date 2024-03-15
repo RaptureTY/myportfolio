@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to right, #ffffff, #ffffff, #dcffeb);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Top {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #4CAF50, #2E8B57);
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.Center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.TopElements {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    user-select: none;
+    margin-top: 5px;
+}
+
+#Title {
+    margin-left: 10px;
+    font: bolder;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+#ProfileTitle {
+    font-size: 70px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 70px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#ProfileDescription {
+    font-size: 20px;
+    color: #333;
+    margin-top: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#ProfileSubTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #818181;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Center span {
+    display: block;
+}
+
+#Buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 1;
+    margin-left: auto;
+    margin: 2px;
+    button {
+        background-color: white;
+        color: black;
+        padding: 8px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        transition: background-color 0.3s ease;
+        margin: 5px;
+    }
+
+    button:hover {
+        background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+    }
+}
